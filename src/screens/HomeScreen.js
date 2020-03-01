@@ -19,10 +19,10 @@ const reducer = (state, action) => {
 
 export default function App() {
   const [state, dispatch] = useReducer(reducer, {
-    borderTopLeftRadius: 0,
-    borderTopRightRadius: 0,
-    borderBottomRightRadius: 0,
-    borderBottomLeftRadius: 0
+    borderTopLeftRadius: 5,
+    borderTopRightRadius: 5,
+    borderBottomRightRadius: 5,
+    borderBottomLeftRadius: 5
   });
 
   console.log(state);
@@ -120,7 +120,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#222f3e",
     justifyContent: "center",
     alignItems: "center"
   },
@@ -131,42 +131,42 @@ const styles = StyleSheet.create({
   previewStyle: {
     height: "40%",
     width: "60%",
-    backgroundColor: "purple"
+    backgroundColor: "#8395a7"
   },
   textTLInputStyle: {
-    borderWidth: 0.2,
-    borderColor: "black",
     width: 50,
     paddingHorizontal: 5,
-    textAlign: "center"
+    textAlign: "center",
+    color: "#8395a7",
+    fontSize: 24
   },
   textTRInputStyle: {
-    borderWidth: 0.2,
-    borderColor: "black",
     width: 50,
     paddingHorizontal: 5,
-    textAlign: "center"
+    textAlign: "center",
+    color: "#8395a7",
+    fontSize: 24
   },
   textBLInputStyle: {
-    borderWidth: 0.2,
-    borderColor: "black",
     width: 50,
     paddingHorizontal: 5,
-    textAlign: "center"
+    textAlign: "center",
+    color: "#8395a7",
+    fontSize: 24
   },
   textBRInputStyle: {
-    borderWidth: 0.2,
-    borderColor: "black",
     width: 50,
     paddingHorizontal: 5,
-    textAlign: "center"
+    textAlign: "center",
+    color: "#8395a7",
+    fontSize: 24
   },
   textCssStyle: {
     fontSize: 20,
-    color: "#5c6773"
+    color: "#8395a7"
   },
   viewTextCssStyle: {
-    backgroundColor: "#f1f1f1",
+    backgroundColor: "#2b3b4e",
     borderRadius: 2,
     height: 120,
     width: 285,
